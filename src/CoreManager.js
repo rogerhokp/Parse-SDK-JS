@@ -91,7 +91,7 @@ var config: { [key: string]: mixed } = {
   IS_NODE: (typeof process !== 'undefined' &&
             !!process.versions &&
             !!process.versions.node),
-  REQUEST_ATTEMPT_LIMIT: 5,
+  REQUEST_ATTEMPT_LIMIT: 1,
   SERVER_URL: 'https://api.parse.com/1',
   VERSION: 'js' + require('../package.json').version,
   APPLICATION_ID: null,
