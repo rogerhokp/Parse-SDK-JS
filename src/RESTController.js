@@ -88,6 +88,7 @@ var RESTController = {
       var handled = false;
       var xhr = new XHR();
 
+      xhr.timeout = 15000;
       xhr.onreadystatechange = function() {
         if (xhr.readyState !== 4 || handled) {
           return;
