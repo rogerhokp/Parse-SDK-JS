@@ -219,7 +219,7 @@ _CoreManager2['default'].setCloudController({
 var config = {
   // Defaults
   IS_NODE: typeof process !== 'undefined' && !!process.versions && !!process.versions.node,
-  REQUEST_ATTEMPT_LIMIT: 5,
+  REQUEST_ATTEMPT_LIMIT: 1,
   SERVER_URL: 'https://api.parse.com/1',
   VERSION: 'js' + '1.6.14',
   APPLICATION_ID: null,
